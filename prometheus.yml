@@ -6,7 +6,7 @@ scrape_configs:
     scheme: https
     metrics_path: /metrics
     static_configs:
-      - targets: ['192.168.15.222:8443']
+      - targets: ['192.168.68.118:8443']
     basic_auth:
       username: "admin"
       password: "admin"
